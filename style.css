@@ -1,0 +1,79 @@
+body {
+    background-color: #a08679;
+    font-family: 'Cute Font', cursive;
+    color: black;
+}
+
+#kanna-title {
+    float: left;
+}
+
+.navbar {
+    margin-top: 50px;
+}
+
+.navbar li {
+    float: right;
+    list-style: none;
+    font-size: 30px;
+}
+
+.navbar li a {
+    padding: 15px 15px;
+    color: black;
+}
+
+.navbar li a:hover {
+    color: #bca89f;
+}
+
+#about-para {
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-left: 700px;
+    font-size: 30px;
+    float: right;
+}
+
+#about-img {
+    margin-top: 60px;
+    margin-right: 30px;
+    margin-left: 700px;
+    font-size: 100px;
+    float: right;
+}
+
+#commands-img {
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 700px;
+    font-size: 30px;
+    float: left;
+}
+
+#commands-para {
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 700px;
+    font-size: 30px;
+    float: left;
+}
+
+#arrow {
+    margin-left: 700px;
+    margin-right: 700px;
+    height: 100px;
+    width: 100px;
+}
+
+#easter-egg {
+    margin-left: 700px;
+    margin-right: 700px;
+    height: 100px;
+    width: 100px;
+}
+
+#easter-egg-statement {
+    margin-left: 700px;
+    margin-right: 700px;
+}
