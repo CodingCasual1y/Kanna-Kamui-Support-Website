@@ -32,7 +32,7 @@ body {
     margin-right: 30px;
     margin-left: 700px;
     font-size: 30px;
-    float: right;
+    float: right
 }
 
 #about-img {
@@ -40,7 +40,6 @@ body {
     margin-right: 30px;
     margin-left: 700px;
     font-size: 100px;
-    float: right;
 }
 
 #commands-img {
@@ -48,7 +47,7 @@ body {
     margin-left: 30px;
     margin-right: 700px;
     font-size: 30px;
-    float: left;
+    float: right;
 }
 
 #commands-para {
@@ -56,7 +55,7 @@ body {
     margin-left: 30px;
     margin-right: 700px;
     font-size: 30px;
-    float: left;
+    float: right;
 }
 
 #arrow {
@@ -77,3 +76,137 @@ body {
     margin-left: 700px;
     margin-right: 700px;
 }
+
+.button {
+    border-radius: 4px;
+    background-color: #7289da;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .button2 {
+    border-radius: 4px;
+    background-color: #7289da;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover span {
+    padding-right: 25px;
+  }
+  
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .arrow-container {
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(0deg);
+  }
+  .arrow-container:hover {
+    cursor: pointer;
+  }
+  .arrow-container:hover .arrow {
+    top: 50%;
+  }
+  .arrow-container:hover .arrow:before {
+    transform: translate(-50%, -50%) rotateZ(-30deg);
+  }
+  .arrow-container:hover .arrow:after {
+    transform: translate(-50%, -50%) rotateZ(30deg);
+  }
+  
+  .arrow {
+    position: absolute;
+    left: 50%;
+    transition: all 0.4s ease;
+  }
+  .arrow:before, .arrow:after {
+    transition: all 0.4s ease;
+    content: "";
+    display: block;
+    position: absolute;
+    transform-origin: bottom right;
+    background: #fff;
+    width: 4px;
+    height: 50px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%) rotateZ(-45deg);
+  }
+  .arrow:after {
+    transform-origin: bottom left;
+    transform: translate(-50%, -50%) rotateZ(45deg);
+  }
+  .arrow:nth-child(1) {
+    opacity: 0.3;
+    top: 35%;
+  }
+  .arrow:nth-child(2) {
+    opacity: 0.6;
+    top: 55%;
+  }
+  .arrow:nth-child(3) {
+    opacity: 0.9;
+    top: 75%;
+  }
